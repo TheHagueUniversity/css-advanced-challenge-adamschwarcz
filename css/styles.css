@@ -4,42 +4,34 @@ html {
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
-	grid-template-rows: 1fr;
-	height: 100px;
+	grid-template-rows: 1fr 2fr 1fr 2fr 1fr;
+	height: 600px;
 	margin: 0;
 }
 
-
-
-/* Row One */
-
 .box-1 {
-	grid-area: 1 / 1 / 1 / 2;
+	grid-area: 1 / 1 / 1 / 3;
 	background: #FACB03; /* Yellow */
 	border: 4px solid black;
 }
 
 .box-2 {
-	grid-area: 1 / 6 / 1 / 6;
-	background: #BD0119; /* Red */
-	border-right: 4px solid black;
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
-}
-
-.box-3 {
-	grid-area: 1 / 2 / 1 / 6;
+	grid-area: 1 / 3 / 1 / 6;
 	background: white; /* White */
 	border-right: 4px solid black;
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;
 }
 
-
-
-/* Row Two */
+.box-3 {
+	background: #BD0119; /* Red */
+	border-right: 4px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
 
 .box-4 {
+	grid-area: 2 / 1 / 2 / 1;
 	background: #1A509A; /* Blue */
 	border-left: 4px solid black;
 	border-right: 4px solid black;
@@ -47,6 +39,7 @@ html {
 }
 
 .box-5 {
+	grid-area: 2 / 2 / 2 / 4;
 	background: #BD0119; /* Red */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
@@ -59,12 +52,14 @@ html {
 }
 
 .box-7 {
+	grid-area: 2 / 5 / 2 / 6;
 	background: #1A509A; /* Blue */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
 }
 
 .box-8 {
+	grid-area: 5 / 2 / 5 / 4;
 	background: #FACB03; /* Yellow */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
@@ -76,12 +71,7 @@ html {
 	border-bottom: 4px solid black;
 }
 
-
-
-/* Row Three */
-
 .box-10 {
-	grid-area: 1 / 1 / 1 / 3;
 	background: #FACB03; /* Yellow */
 	border-left: 4px solid black;
 	border-right: 4px solid black;
@@ -89,7 +79,6 @@ html {
 }
 
 .box-11 {
-	grid-area: 1 / 3 / 1 / 5;
 	background: white; /* White */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
@@ -107,12 +96,7 @@ html {
 	border-bottom: 4px solid black;
 }
 
-
-
-/* Row Four */
-
 .box-14 {
-	grid-area: 1 / 1 / 1 / 4;
 	background: white; /* White */
 	border-left: 4px solid black;
 	border-right: 4px solid black;
@@ -120,45 +104,39 @@ html {
 }
 
 .box-15 {
-	grid-area: 1 / 4 / 1 / 5;
 	background: #1A509A; /* Blue */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
 }
 
 .box-16 {
-	grid-area: 1 / 5 / 1 / 7;
+	grid-area: 3 / 4 / 5 / 6;
 	background: #FACB03; /* Yellow */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
 }
-
-
-
-/* Row Five */
 
 .box-17 {
-	grid-area: 1 / 1 / 1 / 3;
-	background: #1A509A;
-	border-left: 4px solid black;
-	border-right: 4px solid black;
-	border-bottom: 4px solid black;
-}
-
-.box-18 {
-	grid-area: 1 / 3 / 1 / 5;
-	background: #FACB03; /* Yellow */
-	border-right: 4px solid black;
-	border-bottom: 4px solid black;
-}
-
-.box-19 {
 	background: white; /* White */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
 }
 
+.box-18 {
+	background: white; /* White */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.box-19 {
+	background: #1A509A; /* Blue */
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
 .box-20 {
+	grid-area: 5 / 4 / 5 / 7;
 	background: #BD0119; /* Red */
 	border-right: 4px solid black;
 	border-bottom: 4px solid black;
