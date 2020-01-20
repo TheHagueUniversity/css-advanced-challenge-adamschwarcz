@@ -142,3 +142,120 @@ html {
 	border-bottom: 4px solid black;
 }
 
+
+
+/* Style from 960px */
+
+@media only screen and (max-width: 960px) {
+  .box-1 {
+  	background: #BD0119; /* Red */
+  	grid-area: 1 / 1 / 1 / 4;
+    z-index: 5;
+  }
+
+  .box-3 {
+	background: #FACB03; /* Yellow */
+  }
+
+  .box-4 {
+	background: #FACB03; /* Yellow */
+  }
+
+  .box-5 {
+  	background: #1A509A; /* Blue */
+  }
+
+  .box-9 {
+  	background: #BD0119; /* Red */
+  }
+
+  .box-10 {
+  	background: #BD0119; /* Red */
+  }
+
+  .box-12 {
+ 	background: #FACB03; /* Yellow */
+  }
+
+  .box-16 {
+  	background: #BD0119; /* Red */
+  	grid-area: 3 / 4 / 6 / 6;
+    z-index: 4;
+  }
+
+  .box-20 {
+ 	background: #FACB03; /* Yellow */
+  	grid-area: 5 / 6 / 7 / 7;
+  }
+
+}
+
+
+
+/* Style from 960px */
+
+@media only screen and (max-width: 560px) {
+  .box-1 {
+	background: #1A509A; /* Blue */
+  	grid-area: 1 / 1 / 1 / 5;
+    z-index: 5;
+  }
+
+  .box-2 {
+  	grid-area: 1 / 5 / 1 / 6;
+  }
+
+  .box-3 {
+	background: #FACB03; /* Yellow */
+  }
+
+  .box-4 {
+	background: white; /* White */
+  }
+
+  .box-5 {
+ 	background: #FACB03; /* Yellow */
+ 	grid-area: 2 / 2 / 4 / 4;
+  }
+
+  .box-9 {
+  	background: #BD0119; /* Red */
+  }
+
+  .box-10 {
+  	background: #BD0119; /* Red */
+  }
+
+  .box-12 {
+ 	background: #FACB03; /* Yellow */
+ 	border-left: 4px solid black;
+  }
+
+  .box-13 {
+  	border-right: none;
+  }
+
+  .box-16 {
+  	background: #BD0119; /* Red */
+  	grid-area: 3 / 4 / 6 / 6;
+    z-index: 4;
+  }
+
+  .box-17 {
+  	border-left: 4px solid black;
+  }
+
+  .box-18 {
+  	display: none;
+  }
+
+  .box-19 {
+  	display: none;
+  }
+
+  .box-20 {
+ 	background: #FACB03; /* Yellow */
+  	grid-area: 5 / 6 / 7 / 7;
+  }
+
+}
